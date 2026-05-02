@@ -3,9 +3,9 @@ function username_password () {
     let password = document.getElementById('input2').value;
     const btn = document.getElementById('btn');
 
-    if (username === 'Franchesca Dela Rosa' && password === 'OBMCGH') {
+    if (username === 'SN12345' && password === 'OBMCGH') {
         window.alert('You have successfully logged in! Welcome, Franchesca Dela Rosa!');
-        window.location.href = "#";
+        window.location.href = "dashboard.html";
         return;
     } else {
         window.alert('Incorrect username and/or password. You have ' + clickCount + ' more attempt/s. Please try again.');
