@@ -52,3 +52,7 @@ function previewimage(event) {
             }
             reader.readAsDataURL(event.target.files[0]);
         }
+
+function notebook_invalid() {
+    window.alert('This page is not available.')
+}
