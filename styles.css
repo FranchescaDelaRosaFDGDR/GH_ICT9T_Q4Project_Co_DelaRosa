@@ -1,0 +1,56 @@
+.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .btn-custom {
+    background-color: #00b4d8;
+    color: white;
+    border: none;
+        }
+
+.notebook {
+    border: 1px solid #000000;
+    padding: 2vw;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    margin: 0.8vw 0;
+    width: 300px;
+    min-width: 200px;
+    height: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+
+
+#sidebar {
+    width: 250px;
+    min-height: 100vh;
+    background: #0d1b2a;
+    color: white;
+    padding: 20px;
+    flex-shrink: 0;
+}
+
+#sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#sidebar a:hover {
+    background: #1b263b;
+}
+
+footer {
+            background-color: #0d1b2a;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
